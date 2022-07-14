@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.app{
+    margin:0;
+    padding:0;
+    /* background:url(iith.jpg); */
+    background-color:black;
+    background-size:cover;
+    background-position:center;
+    font-family:sans-serif;
+    align-content: center;
+}
+.hostel{
+    width:1020px;
+    height:940px;
+    background:beige;
+    color:black;
+    top:50%;
+    bottom:50%;
+    left:50%;
+    right:50%;
+    position:absolute;
+    transform:translate(-50%,-50%);
+    box-sizing:border-box;
+    padding: 70px 30px;
+    align-items: center;
+    box-shadow: #FF0000;
+    border: 5px solid black;
+    border-radius:1%;
+}
+
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+    z-index: -1;
+    
+}
+h1{
+    text-transform: uppercase;
+    margin:0;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding:0 0 20px;
+    text-align: center;
+    font-size:30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+
+}
+
+.hostel p{
+    margin:0;
+    padding:0;
+    font-weight:200;
+    font-size: 25px;
+
+}
+
+.hostel input,button{
+    width:100%;
+    margin-top: auto;
+    margin-bottom:120px;
+
+}
+.hostel input[type="text"], input[type="password"]{
+    border:none;
+    border-bottom:1px solid #fff;
+    background:transparent;
+    outline:none;
+    height:40px;
+    color:black;
+    font-size:20px;
+
+}
+
+.hostel button[type="submit"]{
+    /* border:#7FFF00;
+    background:rgba(255,255,255,0); */
+    outline:none;
+    height:40px;
+     /* width: 120px; */
+     border-width: thick;
+       /* margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); */
+
+    /* align-items: center; */
+    top: 50%;
+    /* left: 100%; */
+    right: 100%;
+    /* -ms-transform: translate(-50%, -50%); */
+    /* transform: translate(-50%, -50%); */
+    background:brown;
+    color:#fff;
+    font-size:18px;
+    border-radius:20px;
+
+
+}
+
+.hostel button[type="submit"]:hover{
+    cursor:pointer;
+    background:#ffc107;
+    color:#000;
+
+
+}
+.hostel button[type="refresh"]{
+    border:none;
+    outline:none;
+    height:40px;
+    background:blueviolet;
+    color:#fff;
+    font-size:18px;
+    border-radius:20px;
+
+
+}
+
+.hostel button[type="refresh"]:hover{
+    cursor:pointer;
+    background:brown;
+    color:#000;
+
+
+}
+.hostel a{
+    text-decoration:none;
+    font-size:12px;
+    line-height:20px;
+    color:darkgrey;
+}
+
+.hostel a:hover{
+    color:#ffc107;
+}
+
+.hostel div[type="background"]{
+    height: 180px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   }
+.hostel h1[type="heading"]{
+    color: white;
+   }
+.hostel canvas[type="captcha"] {
+    height: 80%;
+    width: 80%;
+    font-size: 30px;
+    letter-spacing: 3px;
+    margin: auto;
+    display: block;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 10px;
+   }
+#center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+ 
+.hostel input[type="text2"] {
+    height: 25px;
+   }
+#incorrectCaptcha {
+    color: #FF0000;
+   }
+#correctCaptcha {
+    color: #7FFF00;
+   }
+
+
+   .dropdown{
+    font-size: 23px;
+    padding: 10px 8px 10px 14px;
+    background: transparent;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    position: relative;
+    right: 0;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    background-position:80% center;
+    right: 0;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    /* width: 200px; */
+    
+
+  }
+  .dropdown .select{
+    /* width: 80%; */
+    /* width: 120%; */
+    /* background:url('arrow.png') no-repeat; */
+    background-position:80% center;
+    right: 0;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    
+  }
+  
+#value option{
+    width: 150px;
+}
+
+/* select#menu {
+    max-width: 50px;
+    min-width: 50px;
+    width: 50px !important;
+} */

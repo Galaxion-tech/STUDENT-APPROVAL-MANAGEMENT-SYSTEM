@@ -1,0 +1,187 @@
+.invisible{
+
+        background: transparent;
+        border: none !important;
+        font-size:0;
+        visibility: hidden;
+    }
+
+    @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+    .app{
+        margin:0;
+        padding:0;
+        /* background:url(iith.jpg); */
+        background-color:black;
+        background-size:cover;
+        background-position:center;
+        font-family:sans-serif;
+        align-content: center;
+    }
+    .login{
+        width:820px;
+        height:270px;
+        background:beige;
+        color:black;
+        top:50%;
+        bottom:50%;
+        left:50%;
+        right:50%;
+        position:absolute;
+        transform:translate(-50%,-50%);
+        box-sizing:border-box;
+        padding: 70px 30px;
+        align-items: center;
+        box-shadow: #FF0000;
+        border: 5px solid black;
+        border-radius:1%;
+    }
+    
+    .avatar{
+        width: 100px;
+        height: 100px;
+        border-radius: 20px;
+        position: absolute;
+        top: -50px;
+        left: calc(50% - 50px);
+        z-index: -1;
+        
+    }
+    h1{
+        text-transform: uppercase;
+        margin:0;
+        padding:0 0 20px;
+        text-align: center;
+        font-size:28px;
+        font-weight: 200;
+    }
+    
+    .login p{
+        margin:0;
+        padding:0;
+        font-weight:200;
+        font-size: 22px;
+    
+    }
+    
+    .login input,button{
+        width:100%;
+        margin-top: auto;
+        margin-bottom:120px;
+    
+    }
+    .login input[type="text"], input[type="password"]{
+        border:none;
+        border-bottom:1px solid #fff;
+        background:transparent;
+        outline:none;
+        height:40px;
+        color:black;
+        font-size:16px;
+    
+    }
+    
+    .login button[type="submit"]{
+        /* border:#7FFF00;
+        background:rgba(255,255,255,0); */
+        outline:none;
+        height:40px;
+         /* width: 120px; */
+         border-width: thick;
+           /* margin: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%); */
+    
+        /* align-items: center; */
+        /* top: 50%; */
+        /* left: 100%; */
+        right: 100%;
+        /* -ms-transform: translate(-50%, -50%); */
+        /* transform: translate(-50%, -50%); */
+        background:brown;
+        color:#fff;
+        font-size:18px;
+        border-radius:20px;
+    
+    
+    }
+    
+    .login button[type="submit"]:hover{
+        cursor:pointer;
+        background:#ffc107;
+        color:#000;
+    
+    
+    }
+    .login button[type="refresh"]{
+        border:none;
+        outline:none;
+        height:40px;
+        background:blueviolet;
+        color:#fff;
+        font-size:18px;
+        border-radius:20px;
+    
+    
+    }
+    
+    .login button[type="refresh"]:hover{
+        cursor:pointer;
+        background:brown;
+        color:#000;
+    
+    
+    }
+    .login a{
+        text-decoration:none;
+        font-size:12px;
+        line-height:20px;
+        color:darkgrey;
+    }
+    
+    .login a:hover{
+        color:#ffc107;
+    }
+    
+    .login div[type="background"]{
+        height: 180px;
+        width: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+       }
+    .login h1[type="heading"]{
+        color: white;
+       }
+    .login canvas[type="captcha"] {
+        height: 80%;
+        width: 80%;
+        font-size: 30px;
+        letter-spacing: 3px;
+        margin: auto;
+        display: block;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 10px;
+       }
+    #center {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       }
+     
+    .hostel input[type="text2"] {
+        height: 25px;
+       }
+    #incorrectCaptcha {
+        color: #FF0000;
+       }
+    #correctCaptcha {
+        color: #7FFF00;
+       }   
+
